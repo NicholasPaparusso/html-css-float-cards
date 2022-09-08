@@ -4,5 +4,85 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: 'Fredoka', sans-serif;
+}
+h1{
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  color: #e52865 ;
+  margin: 30px 0 65px 0;
+}
+
+h3{
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 /*general*/
 
+/*utility*/
+.container{
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+}
+.debug{
+  background-color: rgba(200,0, 0, .25);
+  border: 1px solid black;
+}
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+/*utility*/
+
+/*title*/
+.title{
+  max-height: 180px;
+}
+.title p{
+  text-align: center;
+  margin-bottom: 50px;
+  font-size:  17px;
+
+}
+/*title*/
+
+/*main*/
+
+.box{
+  overflow: hidden;
+  text-align: justify;
+  color: #fffffe;
+  background-color: #0f0e17;
+  width: calc((100% * 1) /3);
+  height: 100px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+.img-box img{
+  margin-right: 15px;
+  float: left;
+  width: calc(80% / 3);
+  height: 100px
+}
+
+#email{
+  color: #08b4fc;
+  margin-top: 10px;
+}
+
+.row{
+  width: 100%;
+  float: left;
+  display: flex;
+}
+/*main*/
